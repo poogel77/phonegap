@@ -1,0 +1,84 @@
+/* importing fonts */
+@font-face {
+  font-family: "OMTAMIL-MUHELEN";
+  src: url("../font/OMTAMIL-MUHELEN.ttf");
+}
+
+@font-face {
+  font-family: "OMTAMIL-MUHELEN";
+  src: url("../font/OMTAMIL-MUHELEN.ttf");
+  font-style:italic;
+}
+
+@font-face {
+  font-family: "OMTAMIL-MUHELEN";
+  src: url("../font/OMTAMIL-MUHELEN.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "OMTAMIL-MUHELEN";
+  src: url("../font/OMTAMIL-MUHELEN.ttf");
+  font-weight: 300;
+  font-style:italic;
+}
+
+@font-face {
+  font-family: "OMTAMIL-MUHELEN-Bold";
+  src: url("../font/OMTAMIL-MUHELEN-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "OMTAMIL-MUHELEN-Bold";
+  src: url("../font/OMTAMIL-MUHELEN-Bold.ttf");
+  font-weight: 600;
+  font-style:italic;
+}
+/* basic css reset */
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .button, input, textarea { 
+	font-family: 'OMTAMIL-MUHELEN', sans-serif; 
+}
+
+#post { 
+font-family: 'OMTAMIL-MUHELEN', sans-serif; 
+}
+
+#postsList {
+font-family: 'OMTAMIL-MUHELEN', sans-serif; 
+}
+
+a { 
+	text-decoration: none; 
+}
+img { 
+	max-width: 100%; 
+	height:auto; 
+}
+.button-comment {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0;
+    margin-top: 0 !important;
+    width: 90% !important;
+}
+.post-wp img{
+	max-width:100%;
+	height:auto;
+	margin:0px !important;
+}
+.post-wp iframe{
+	width:100%;
+	height:350px;
+}
+.post-content, .post-content p{
+	font-size:16px !important;
+}
+.post-content img{
+	max-width:100%;
+	height:auto;
+	margin:0px !important;
+}
+.post-content a{
+	margin:0px !important;
+}
